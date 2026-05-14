@@ -1,0 +1,21 @@
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VS Code (configuración local, no del proyecto)
+.vscode/settings.json
+.vscode/launch.json
+
+# Archivos de trabajo temporal
+*.tmp
+*.log
+*.bak
+
+# Carpetas de dependencias (si usas npm en el futuro)
+node_modules/
+dist/
+
+# Variables de entorno (nunca subir datos sensibles)
+.env
+.env.local
