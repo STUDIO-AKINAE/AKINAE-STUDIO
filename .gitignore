@@ -1,0 +1,14 @@
+# OneDrive temp files
+*.tmp
+~$*
+
+# Windows system files
+Thumbs.db
+Desktop.ini
+
+# Skills (auto-installed)
+.agents/
+skills-lock.json
+
+# Test pages
+prueba.html
