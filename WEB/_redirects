@@ -1,0 +1,17 @@
+# Akinae Studio — Netlify Redirects
+# No redirects needed for the current structure
+# All pages are accessible at their natural paths
+# /index.html        -> /
+# /portafolio.html   -> /portafolio
+# /planes.html       -> /planes
+# /nosotros.html     -> /nosotros
+# /contacto.html     -> /contacto
+# /blog.html         -> /blog
+
+# Optional: clean URLs (uncomment if desired)
+/index          /           200
+/portafolio     /portafolio.html   200
+/planes         /planes.html       200
+/nosotros       /nosotros.html     200
+/contacto       /contacto.html     200
+/blog           /blog.html         200
