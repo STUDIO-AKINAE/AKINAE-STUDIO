@@ -1,0 +1,28 @@
+# Akinae Studio — Netlify Redirects
+# Clean URLs are canonical. Legacy .html URLs redirect permanently.
+
+/index.html                                      /                                      301
+/portafolio.html                                 /portafolio                             301
+/planes.html                                     /planes                                 301
+/nosotros.html                                   /nosotros                               301
+/contacto.html                                   /contacto                               301
+/blog.html                                       /blog                                   301
+/privacidad.html                                 /privacidad                             301
+/blog/cuanto-cuesta-pagina-web-colombia-2026.html /blog/cuanto-cuesta-pagina-web-colombia-2026 301
+/portafolio/dra-diana-lanziano.html              /portafolio/dra-diana-lanziano        301
+/portafolio/dra-eliana-gonzalez.html             /portafolio/dra-eliana-gonzalez       301
+/portafolio/vargas-asociados.html                /portafolio/vargas-asociados          301
+/portafolio/ingealuminios.html                   /portafolio/ingealuminios             301
+
+# Clean URL rewrites serve the existing static files without changing the URL.
+/portafolio                                      /portafolio.html                         200
+/planes                                          /planes.html                             200
+/nosotros                                        /nosotros.html                           200
+/contacto                                        /contacto.html                           200
+/blog                                            /blog.html                               200
+/privacidad                                      /privacidad.html                         200
+/blog/cuanto-cuesta-pagina-web-colombia-2026    /blog/cuanto-cuesta-pagina-web-colombia-2026.html 200
+/portafolio/dra-diana-lanziano                   /portafolio/dra-diana-lanziano.html      200
+/portafolio/dra-eliana-gonzalez                  /portafolio/dra-eliana-gonzalez.html     200
+/portafolio/vargas-asociados                     /portafolio/vargas-asociados.html        200
+/portafolio/ingealuminios                        /portafolio/ingealuminios.html           200
